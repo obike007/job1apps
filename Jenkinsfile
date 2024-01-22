@@ -38,7 +38,7 @@ pipeline{
             steps {
                 sh 'sudo yum install git -y'
                 sh 'git clone https://github.com/alirezatayebinejad/ecommerce-website-html-css.git'
-                sh 'cd ecommerce-website-html-css && mv * /var/www/html/'
+                sh 'cd ecommerce-website-html-css && mv* /var/www/html/'
             }
         }
             
